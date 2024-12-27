@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "terraform_rg" {
   location = "East US"
-  name     = "terraform_rg1"
+  name     = "terraform_rg"
 }
 
 # resource "random_string" "random_string" {
