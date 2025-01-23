@@ -3,11 +3,11 @@ resource "azurerm_resource_group" "terraform_rg" {
   name     = "terraform_rg"
 }
 
-# resource "random_string" "random_string" {
-#   length  = 16
-#   special = false
-#   upper   = false
-# }
+resource "random_string" "random_string" {
+  length  = 16
+  special = false
+  upper   = false
+}
 #
 # resource "azurerm_storage_account" "terraform_storage" {
 #   account_replication_type = "LRS"
